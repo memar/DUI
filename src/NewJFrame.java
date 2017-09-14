@@ -162,7 +162,7 @@ public class NewJFrame extends javax.swing.JFrame {
         x = Double.parseDouble(jTextField1.getText());
         y = Double.parseDouble(jTextField3.getText());
         z = x*y;
-        jTextField2.setText(String.valueOf(z));        
+        jTextField2.setText(String.format("%.2f",z));        
     }//GEN-LAST:event_jButton1MouseClicked
 
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
@@ -173,7 +173,7 @@ public class NewJFrame extends javax.swing.JFrame {
         x = Double.parseDouble(jTextField2.getText());
         y = Double.parseDouble(jTextField3.getText());
         z = x/y;
-        jTextField1.setText(String.valueOf(z));  
+        jTextField1.setText(String.format("%.2f",z));  
     }//GEN-LAST:event_jButton2MouseClicked
 
     /**
